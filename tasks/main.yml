@@ -6,7 +6,7 @@
       get_url:
         url: https://getcomposer.org/installer
         dest: /tmp/composer-setup.php
-        mode: 0755
+        mode: '755'
         sha256sum: '{{ composer_checksum }}'
 
     - name: Install Composer
